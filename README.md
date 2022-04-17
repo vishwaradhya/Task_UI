@@ -21,6 +21,8 @@ The “Automation framework is Cucumber using Java with maven build tool” fram
     UI test executions starts
     To check for report, go to “target\cucumber-html-report\index.html”
 
+Note : Update browser property in config.properties to change browser type
+
 ## Run with specific tags
 
 Command to run : mvn clean verify -Dcucumber.options="--tags "
